@@ -47,19 +47,4 @@ public class MessageServlet extends HttpServlet {
             e.printStackTrace();
         }
     }
-
-    // post:
-    // 1.   2 par: username, message;
-    // 2.   database-shi (tableshi) shesabamis username-ze vinaxavt message-s
-    // 3.   response: carieli/200/...
-
-    // get:
-    // 1.   2 par: username, password;
-    // 2.   database-shi (table-dan) username-ze vigebt message-ebs
-    // 3.   tu gamova:
-    //          pirdapir string[] shi shevinaxot;
-    //      tu arada:
-    //          message-ebi ert stringshi shevinaxot
-    //          message-ebi gamovyot "\n"-ebit
-    // 4.   response-shi gadavcemt message-ebian string-s/array-s
 }
